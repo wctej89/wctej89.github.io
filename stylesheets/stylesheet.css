@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Litho';
+  src: url('../fonts/LithoAntique-Light.woff') format('woff');
+}
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+.page_title {
+  font-size: 48px;
+  vertical-align: top;  
+  margin: 0;
+}
+
+.page_title a:hover {
+  text-decoration: none;
+}
+
+#first_name {
+  color: #450E3D;
+  font-weight: 900;
+}
+
+#last_name {
+  color: #450E3D;
+  font-weight: lighter;
+}
+
+
+.page_subtitle ul {
+  padding-left: 5px;
+  color: #444;
+  margin: 0;
+}
+
+.page_subtitle li {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.page_subtitle li:after {
+  content:"|";
+  margin-left: 10px;
+}
+
+
+
+.page_subtitle li:nth-of-type(5):after {
+  content:"";
+  margin-left: 10px;
+  font-family: 'Litho';
+}
+
+.page_subtitle {
+  margin-bottom: 30px;
+}
+
+.page_title h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Litho';
+}
+
+.container_12 {
+  margin-top: 40px;
+}
+
+.dates {
+  text-align: right;
+}
+
+.section-header {
+  font-size: 1.5em;
+}
+
+.section-title {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+.sub-title {
+  color: #444;
+}
+.section-content {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.7em;
+}
+
+.section-content ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-content li {
+  list-style-type: square;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.section-content p {
+  margin-top: 0;
+}
+
+/*.section-content li:before {
+  position: relative;
+  right: 15px;
+  content: "-";
+
+}
+
+.section-content li:first-line{
+  position: relative;
+  padding-left: -25px;
+}*/
+
+
+i {
+  margin-right: 10px;
+}
+
+gray {
+  color: #444;
+}
+
+.light_gray {
+  color: #777;
+  font-weight: 300;
+}
+
+.lightest_gray {
+  color: #bbb;
+  font-weight: 100;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-left: 28px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(91, 91, 184);
+}
