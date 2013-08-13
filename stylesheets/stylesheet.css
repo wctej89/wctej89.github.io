@@ -8,12 +8,14 @@ body{
   font-family: 'Lato', sans-serif;
   color: #222;
 }
-
 .page_title {
   font-size: 48px;
   vertical-align: top;  
   margin: 0;
-  /*text-transform: uppercase;*/
+}
+
+.page_title a:hover {
+  text-decoration: none;
 }
 
 #first_name {
@@ -76,7 +78,7 @@ body{
 
 .section-title {
   margin-bottom: 5px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .sub-title {
   color: #444;
@@ -115,13 +117,6 @@ body{
   padding-left: -25px;
 }*/
 
-a {
-  color: black;
-}
-
-a:hover {
-  color: rgb(91, 91, 184);
-}
 
 i {
   margin-right: 10px;
@@ -141,7 +136,7 @@ gray {
   font-weight: 100;
 }
 
-h3 {
+h5 {
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -150,4 +145,12 @@ h3 {
   margin-left: 28px;
   margin-top: 0;
   margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(91, 91, 184);
 }
