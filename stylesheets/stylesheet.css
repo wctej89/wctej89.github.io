@@ -115,6 +115,13 @@ body{
   padding-left: -25px;
 }*/
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(91, 91, 184);
+}
 
 i {
   margin-right: 10px;
